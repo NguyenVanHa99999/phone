@@ -1,0 +1,71 @@
+body {
+    background-color: #000; /* Nền đen */
+    color: #fff; /* Màu chữ trắng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao toàn màn hình */
+    margin: 0;
+}
+
+.register-form-container {
+    background-color: #1c1c1c; /* Màu nền form */
+    border-radius: 10px;
+    padding: 40px 30px; /* Khoảng cách trong form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px; /* Chiều rộng tối đa */
+}
+
+.register-form-container h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Khoảng cách dưới tiêu đề */
+    color: #fff;
+}
+
+.form-label {
+    color: #fff; /* Màu label */
+    font-weight: bold; /* Đậm hơn */
+}
+
+.form-control {
+    background-color: #333; /* Màu nền input */
+    color: #fff; /* Màu chữ input */
+    border: 1px solid #555; /* Viền input */
+    padding: 12px; /* Tăng chiều cao input */
+    margin-bottom: 20px; /* Khoảng cách dưới mỗi input */
+    width: 100%; /* Đảm bảo chiều rộng đều nhau */
+    box-sizing: border-box; /* Bao gồm padding và viền trong kích thước */
+}
+
+.form-control:focus {
+    background-color: #333;
+    color: #fff;
+    border-color: #007bff;
+    outline: none; /* Loại bỏ viền outline mặc định */
+    box-shadow: none; /* Loại bỏ hiệu ứng shadow mặc định */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px; /* Kích thước chữ */
+    width: 100%; /* Nút chiếm toàn chiều rộng */
+    box-sizing: border-box;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+a:hover {
+    color: #0056b3;
+}

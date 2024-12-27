@@ -1,0 +1,61 @@
+/* Toàn bộ trang */
+body {
+    background-color: #f8f9fa; /* Màu nền sáng */
+    color: #333; /* Màu chữ */
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Nút đăng nhập */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Liên kết đăng ký */
+.text-primary {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.text-primary:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

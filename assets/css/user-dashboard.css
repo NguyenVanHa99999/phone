@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa; /* Màu nền sáng */
+    color: #333; /* Màu chữ chính */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff; /* Màu xanh nổi bật */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555; /* Màu chữ nhẹ hơn */
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 20px;
+}
+
+.card-hover:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Tăng độ đổ bóng khi hover */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666; /* Màu chữ của mô tả */
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+}
